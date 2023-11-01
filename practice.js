@@ -155,12 +155,13 @@ function backwards(inputArray) {
 
 function findInArray(inputArray, value) {
   // Code here
-  for (let i of inputArray) {
-    if (inputArray[i] === value) {
-      return true;
-    }
-  }
-  return false;
+  return inputArray.includes(value);
+  // for (let i of inputArray) {
+  //   if (inputArray[i] === value) {
+  //     return true;
+  //   }
+  // }
+  // return false;
 }
 
 //////////////////PROBLEM 14////////////////////
